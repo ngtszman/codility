@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="standard_task_description" class="TaskDescription__StandardTaskDescription-sc-7m9k5q-3 crhSKM standard-task-description"><h2 class="mod-hidden">Task description</h2><div class="TaskDescription__TaskContentWrapper-sc-7m9k5q-2 kDUwpJ task-description-content">
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+    <div class="brinza-task-description">
+        <p>We are given two strings P and Q, each consisting of N lowercase English letters. For each position in the strings, we have to choose one letter from either P or Q, in order to construct a new string S, such that the number of distinct letters in S is minimal. Our task is to find the number of distinct letters in the resulting string S.</p>
+        <p>For example, if P = "ca" and Q = "ab", S can be equal to: "ca", "cb", "aa" or "ab". String "aa" has only one distinct letter ('a'), so the answer is 1 (which is minimal among those strings).</p>
+        <p>Write a function:</p>
+        <blockquote><p style="font-family: monospace; font-size: 9pt; display: block; white-space: pre-wrap"><tt>class Solution { public int solution(String P, String Q); }</tt></p></blockquote>
+        <p>that, given two strings P and Q, both of length N, returns the minimum number of distinct letters of a string S, that can be constructed from P and Q as described above.</p>
+        <p><b>Examples:</b></p>
+        <p>1. Given P = "abc", Q = "bcd", your function should return 2. All possible strings S that can be constructed are: "abc", "abd", "acc", "acd", "bbc", "bbd", "bcc", "bcd". The minimum number of distinct letters is 2, which be obtained by constructing the following strings: "acc", "bbc", "bbd", "bcc".</p>
+        <p>2. Given P = "axxz", Q = "yzwy", your function should return 2. String S must consist of at least two distinct letters in this case. We can construct S = "yxxy", where the number of distinct letters is equal to 2, and this is the only optimal solution.</p>
+        <p>3. Given P = "bacad", Q = "abada", your function should return 1. We can choose the letter 'a' in each position, so S can be equal to "aaaaa".</p>
+        <p>4. Given P = "amz", Q = "amz", your function should return 3. The input strings are identical, so the only possible S that can be constructed is "amz", and its number of distinct letters is 3.</p>
+        <p>Write an <b><b>efficient</b></b> algorithm for the following assumptions:</p>
+        <blockquote><ul style="margin: 10px;padding: 0px;"><li>N is an integer within the range [<span class="number">1</span>..<span class="number">50,000</span>];</li>
+            <li>strings P and Q are both of length N;</li>
+            <li>strings P and Q are made only of lowercase letters (<tt style="white-space:pre-wrap">a</tt>−<tt style="white-space:pre-wrap">z</tt>);</li>
+            <li>strings P and Q contain a total of at most 20 distinct letters.</li>
+        </ul>
+        </blockquote></div>
+    <div style="margin-top:5px">
+        <small>Copyright 2009–2023 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.</small>
+    </div>
+
+</div></div>
+</body>
+</html>
